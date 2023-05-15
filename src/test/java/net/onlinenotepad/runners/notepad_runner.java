@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/my-devco-feature.feature",
+        features = "src/test/resources/features/texto_enriquecido.feature",
         glue = "net.onlinenotepad.stepdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
